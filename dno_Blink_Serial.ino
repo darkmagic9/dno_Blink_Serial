@@ -26,7 +26,7 @@ void loop() {
   i++;
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   Serial.println("HIGH : " + String(i));
-  delay(1000);              // wait for a second
+  delay(2000);              // wait for a second
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   Serial.println("LOW : " + String(i));
   delay(1000);              // wait for a second
